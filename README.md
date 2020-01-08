@@ -1,0 +1,1 @@
+This is a project to practice breaking down a webpage and rebuilding it  again with the use of DevTools.
