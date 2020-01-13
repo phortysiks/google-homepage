@@ -68,9 +68,47 @@ li, a {
       margin-top: 140px;
   }
 
-  #search-box {
+  #search-bar-container {
       margin-top: 25px;
       margin-bottom: 25px;
+      background: #fff;
+      border: 1px solid #dfe1e5;
+      outline: none;
+      height: 44px;
+      width: 482px;
+      border-radius: 24px;
+      color: #9AA0A6;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+  }
+
+  path {
+      color: #9AA0A6;
+  }
+
+  svg {
+      height: 20px;
+      width: 20px;
+      color: #9AA0A6;
+      padding: 10px;
+  }
+
+  #search-icon {
+      color: #9AA0A6;
+      line-height: 24px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding-left: 5px;
+  }
+
+  #search-box-type-area {
+      height: 34px !important;
+      line-height: 34px;
+      outline: none;
+      font: 16px arial, sans-serif;
+      border: none;
   }
 
   #main-wrapper {
@@ -81,10 +119,13 @@ li, a {
 
   footer {
       align-items: center;
-      border: 1px solid;
       position: fixed;
       bottom: 0;
       width: 100%;
+      padding: 8px;
+      background-color: #f2f2f2;
+      color: rgba(0, 0, 0, 0.54);
+      font-family: Arial, Helvetica, sans-serif;
   }
 
   .footer-nav {
@@ -94,8 +135,43 @@ li, a {
 
   .left-footer-container {
       display: flex;
+      padding-top: 10px;
   }
 
   .right-footer-container {
       display: flex;
+      padding-top: 10px;
+      padding-right: 20px;
+  }
+
+  .footer-first-row {
+      font-size: 15px;
+      margin-left: 15px;
+      padding: 10px 0px 15px 0px;
+      border-bottom: 1px solid #e4e4e4;
+  }
+
+  button {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      margin: 11px 4px;
+      padding: 0 16px;
+      line-height: 27px;
+      height: 36px;
+      min-width: 54px;
+      text-align: center;
+      border-radius: 4px;
+      background-color: #f2f2f2;
+      color: #5F6368;
+      border: 1px solid #f2f2f2;
+  }
+
+  button:hover {
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+      border: 1px solid #c6c6c6;
+      color: #222;
+  }
+
+  a:hover {
+      text-decoration: underline;
   }
