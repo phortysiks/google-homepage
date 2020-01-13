@@ -109,6 +109,7 @@ li, a {
       outline: none;
       font: 16px arial, sans-serif;
       border: none;
+      width: 400px;
   }
 
   #main-wrapper {
